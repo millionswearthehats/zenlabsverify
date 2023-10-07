@@ -1,3 +1,12 @@
+/* Update the font-family property for elements where you want to use the "Trade Winds" font */
+body, h1, p {
+    font-family: 'Trade Winds', sans-serif;
+    /* Use a fallback sans-serif font in case the "Trade Winds" font isn't available */
+}
+
+/* ... (rest of your CSS styles) */
+
+
 /* Reset some default styles */
 body, h1, p {
     margin: 0;
